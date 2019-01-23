@@ -1,4 +1,3 @@
-![Build Status](https://travis-ci.org/0xcert/ethereum-erc721.svg?branch=master)&nbsp;[![NPM Version](https://badge.fury.io/js/@0xcert%2Fethereum-erc721.svg)](https://www.npmjs.com/package/@0xcert/ethereum-erc721)&nbsp;[![Dependencies Status](https://david-dm.org/0xcert/ethereum-erc721.svg)](https://david-dm.org/0xcert/ethereum-erc721)&nbsp;[![Bug Bounty](https://img.shields.io/badge/bounty-open-2930e8.svg)](https://github.com/0xcert/ethereum-erc721/blob/master/BUG_BOUNTY.md)
 
 # ERC-721 Token — Reference Implementation
 
@@ -42,7 +41,7 @@ $ npm install @0xcert/ethereum-erc721@2.0.0-rc1
 Clone this repository and install the required `npm` dependencies:
 
 ```
-$ git clone git@github.com:0xcert/ethereum-erc721.git
+$ git clone github.com/wooriapt/ethereum-erc721
 $ cd ethereum-erc721
 $ npm install
 ```
@@ -134,13 +133,7 @@ contract MyArtSale is
 
 ## Playground
 
-We already deployed some contracts to [Ropsten](https://ropsten.etherscan.io/) network. You can play with them RIGHT NOW. No need to install software. In this test version of the contract, anybody can `mint` or `burn` tokens, so don't use it for anything important.
 
-| Contract                                                     | Token address | Transaction hash |
-| ------------------------------------------------------------ | ------------- | ---------------- |
-| [`nf-token.sol`](src/contracts/tokens/nf-token.sol)          | [0xd8bbf8ceb445de814fb47547436b3cfeecadd4ec](https://ropsten.etherscan.io/address/0xd8bbf8ceb445de814fb47547436b3cfeecadd4ec)          | [0xaac94c9ce15f5e437bd452eb1847a1d03a923730824743e1f37b471db0f16f0c](https://ropsten.etherscan.io/tx/0xaac94c9ce15f5e437bd452eb1847a1d03a923730824743e1f37b471db0f16f0c)             |
-| [`nf-token-metadata.sol`](src/contracts/tokens/nf-token-metadata.sol) | [0x5c007a1d8051dfda60b3692008b9e10731b67fde](https://ropsten.etherscan.io/address/0x5c007a1d8051dfda60b3692008b9e10731b67fde)          | [0x1e702503aff40ea44aa4d77801464fd90a018b7b9bad670500a6e2b3cc281d3f](https://ropsten.etherscan.io/tx/0x1e702503aff40ea44aa4d77801464fd90a018b7b9bad670500a6e2b3cc281d3f)             |
-| [`nf-token-enumerable.sol`](src/contracts/tokens/nf-token-enumerable.sol) | [0x130dc43898eb2a52c9d11043a581ce4414487ed0](https://ropsten.etherscan.io/address/0x130dc43898eb2a52c9d11043a581ce4414487ed0)          | [0x8df4c9b73d43c2b255a4038eec960ca12dae9ba62709894f0d85dc90d3938280](https://ropsten.etherscan.io/tx/0x8df4c9b73d43c2b255a4038eec960ca12dae9ba62709894f0d85dc90d3938280)             |
 
 ## Contributing
 
@@ -148,11 +141,6 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to help out.
 
 ## Bug bounty
 	
-You are somebody that reads documentation on smart contracts and understands how the ERC-721 Token Reference Implementation works. So you have unique skills and your time is valuable. We will pay you for your contributions to this project in the form of bug reports.
-	
-If your project depends on ERC-721 or you want to help improve the assuarance of this project then you can pledge a bounty. This means you will commit to pay researchers that demonstrate a problem. Contact us at E-mail if interested. Thank you.
-	
-Read the full [bug bounty program](BUG_BOUNTY.md).
 
 ## Licence
 
